@@ -1,0 +1,147 @@
+ *{
+padding: 0px;
+margin: 0px;
+} 
+.container {
+    width: 1000px;
+    min-height: 1100px;
+    background-image: linear-gradient(#1e0e12, #65505a, #1e0e12);
+    margin: 0px auto;
+    
+}
+
+header h2{
+    margin: 5px;
+    display:flex;
+    align-items: center;
+}
+header h1 {
+    font-family: Comic Sans MS;
+    margin: 5px;
+}
+header {
+    margin: 0px;
+    font-family: PIXymbols Boxkey Regular;
+    background-color: #fbfbfb;
+    width: 1000px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+.topBody{
+    display: flex;
+    justify-content: space-around;
+    margin: 26px;
+}
+.topBody img{
+    border: 5px solid #c0c0c0;
+    height:250px;
+    box-sizing: border-box;
+}
+.about{
+    text-align: justify;
+    height:250px;
+    margin: 0px 0px 0px 10px;
+    background-image: linear-gradient(#f8f5f8, #ded1dd,#dccddb);
+}
+
+
+.topBody .about p{
+    padding:  5px;
+} 
+
+.topBody .about a{
+    padding:5px;
+color:black;
+}
+
+.bio img{
+    width: 300px;
+    height: 190px;
+    justify-content: stretch;
+}
+.bottomBody {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}   
+.LaModa, .familyContacts, .fiveEleven {
+    padding: 0px 0px 5px 0px;
+    margin: 5px 5px 0px 5px;
+    background-image: linear-gradient(#f8f5f8, #ded1dd,#dccddb);
+    width: 350px;
+    height: 650px;
+
+}
+.LaModa p{
+text-align: justify;
+padding: 10px;
+margin-bottom: 48px;
+}
+.fiveEleven p{
+text-align: justify;
+padding: 5px;
+margin-bottom: 20px;
+}
+.familyContacts p{
+text-align: justify;
+padding: 5px;
+margin-bottom: 40px;
+}
+
+.icons img {
+padding: 5px 0px 0px 4px;
+width: 40px;
+height: 40px;
+}
+button{
+    background-color: #407d61;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 30px 0px 20px 80px;
+    width:130px;
+    box-shadow:  0px 5px 5px 0px grey;
+    color: white;
+}
+h3
+{
+    background-image: linear-gradient(#b3b2b6,#878593, #b3b2b6);
+    margin: 0px;
+    color: white;
+    height: 40px;
+    display:flex;
+    align-items: center;
+    padding: 5px;
+}
+footer{
+    background-color: #fbfbfb;
+    width: 100%;
+    height: 80px;
+    text-align: center;
+    color: #1e0e12;
+}
+footer img{
+    width: 20px;
+    height: 20px;
+}
+.endBottom{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    
+}
+
+footer span img, footer a{
+    vertical-align: top;
+    display: inline-block;
+}
+h6{
+    padding-bottom: 10px;
+}
+
+

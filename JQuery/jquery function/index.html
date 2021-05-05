@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+     <script>
+         $(document).ready(function(){
+
+             $('.main').click(function(){
+                 $('.addaclass p').addClass('intro');
+                  });
+              $('.slidetoggl').click(function(){
+                  $('img').slideToggle();
+              });
+              $('.append').click(function(){
+                  $('.bottom p').append('<b> append text</b>');
+              });
+         });
+     </script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="addaclass">
+    <h1>AddClass</h1>
+    <button class="main">AddClass</button>
+    <p>Click the button to add class 'red' to this paragraph</p>
+        </div>
+        <hr>
+        <div class="body">
+            <h1>Slidetoggle</h1>
+            <button class="slidetoggl">Slidetoggle</button>
+            <p>click the button to Slidetoggle a hidden image </p>
+            <img  src="sky+photo+for+website+home+page.jpeg" alt="sky">
+        </div>
+        <hr>
+        <div class="bottom">
+            <h1>Append</h1>
+            <button class="append">append</button>
+            <p>click the button to append a new paragraph</p>
+        </div>
+    </div>
+</body>
+</html>

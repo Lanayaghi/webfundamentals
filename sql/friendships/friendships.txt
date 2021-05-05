@@ -1,0 +1,12 @@
+1) SELECT users.first_name, users.last_name, concat(users2.first_name) as friend_first_name, concat(users2.last_name) as friend_last_name
+   from users left join friendships
+   on users.id= friendships.user_id
+   left join users as users2
+   on users2.id = friendships.friend_id;
+
+2) SELECT users.first_name, users.last_name 
+  from users join friendships on users.id = friendships.user_id
+  where friend_id = 4;
+
+3) select count(*) from friendships;
+

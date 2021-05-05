@@ -1,0 +1,24 @@
+1) connect to localhost :
+ - open mysql workbensh 
+ - click on new connection button
+ - enter the name (localhost)
+ - enter password
+2) use commands :
+ - show databases; // to show all the data and tabels in the localhost
+
+
+  - use sakila;
+  - insert into actor (first_name,last_name) value ('sara','meme');
+  - select * from film where film_id = 5 or film_id = 1;
+  - select film.title, film.special_features
+    from film
+    limit 5;
+  - update film set title = 'film_name' where film_id=6;
+  - use twitter;
+  - set sql_safe_updates = 0;
+  - delete from tweets
+    where id = 6;
+
+
+ 
+  

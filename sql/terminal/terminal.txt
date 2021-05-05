@@ -1,0 +1,17 @@
+1) Wr
+2) cd desktop
+3) mkdir test
+4) echo > index.html
+   echo > style.css
+   echo > command.txt
+5) copy index.html index_2.html
+6) cd desktop
+   mkdir destination
+7) copy index_2.html destinationfolder
+8) cd test
+   del style.css
+9) dir
+10) cd desktop
+    del destination/s
+11) cd test
+    type command.txt
